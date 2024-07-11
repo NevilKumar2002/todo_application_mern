@@ -1,0 +1,94 @@
+/* style.css */
+
+.label-input-div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 1.2rem;
+    margin: 20px;
+}
+
+
+.login-bg-container {
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20201101/pngtree-scene-with-geometrical-forms-the-poster-model-minimal-background-render-image_452981.jpg');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.registration-page,
+.login-page {
+    width: auto;
+    margin: auto;
+    padding: 20px;
+    height: auto;
+    border: 2px solid blue;
+    max-width: 90vw;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    height: 1.7rem;
+    padding-left: 20px;
+    font-size: 1.1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+input:focus {
+    border-color: #008080;
+}
+
+.register-button,
+.login-button {
+    background-color: #008080;
+    color: white;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.register-button:hover,
+.login-button:hover {
+    background-color: #3bd6c6;
+    transform: scale(1.05);
+    color: black;
+}
+
+.button-div {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .registration-page,
+    .login-page {
+        max-width: 80vw;
+    }
+
+    .register-button,
+    .login-button {
+        width: 100%;
+    }
+}

@@ -1,0 +1,86 @@
+/* Container styles */
+.activity-list-container {
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table styles */
+.activity-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.activity-table th, .activity-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 2px solid #ddd;
+}
+
+.activity-table th {
+  background-color: #f2f2f2;
+}
+
+.activity-table td {
+  vertical-align: middle;
+}
+
+/* Button styles */
+.activity-table button {
+  margin-right: 8px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 14px;
+}
+
+.activity-table button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.activity-table button:hover {
+  background-color: #0056b3;
+}
+
+/* Form styles */
+.activity-form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.activity-form input[type="text"] {
+  width: 94%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.activity-form button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #28a745;
+  color: #fff;
+  font-size: 14px;
+}
+
+.activity-form button[type="submit"]:hover {
+  background-color: #218838;
+}
+
+  
